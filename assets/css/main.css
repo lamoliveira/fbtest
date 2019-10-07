@@ -171,7 +171,8 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
-		color: inherit;
+		/*color: inherit;*/
+		color: rgb(201, 25, 25);
 		text-decoration: none;
 	}
 
@@ -185,11 +186,11 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			/*color: #ae2ebc !important;*/
-			color:#ae2ebc;
+			color:#ae2ebc  !important;
 		}
 
 			a:hover:before {
-				color: #ae2ebc !important;
+				/*color: #ae2ebc;*/
 				/*color:#ae2ebc;*/
 			}
 
@@ -1898,7 +1899,7 @@ input, select, textarea {
 			/*box-shadow: inset 0 0 0 1px #ae2ebc;*/
 			box-shadow: inset 0 0 0 1px #ae2ebc;
 			color: #ae2ebc !important;
-		}
+				}
 
 			input[type="submit"]:hover:active,
 			input[type="reset"]:hover:active,
@@ -3593,7 +3594,8 @@ input, select, textarea {
 					}
 
 					#menu .links > li a:hover h3 {
-						color: #ae2ebc;
+						color: #ffffff;
+						/*color: #ae2ebc;*/
 					}
 
 				#menu .links > li:first-child {
